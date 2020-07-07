@@ -1,0 +1,80 @@
+body{
+ background: black;
+ text-align: center;
+ font-style: ;
+
+}
+
+
+
+div{
+	color: white;
+	font-size: 30pt;
+     
+}
+
+
+h2{
+   border:3px white dashed;
+   border-radius: 5px;
+   padding:10px ;
+ }
+ #mail{
+      text-align: middle;
+}
+.educationqualification{
+	display: flex;
+	background-color: lightblue;
+    flex-direction:column;
+    justify-content: center;
+}
+ul{
+	list-style: square;
+}
+.educationalqualification>div{
+       font-size: 30px;
+       padding: 30px;
+       margin: 10px;
+       
+}
+.hobbies{
+	display: flex;
+     background-color: pink;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.hobbies>div{
+        padding: 30px;
+        margin: 10px;
+}
+#myimg{
+	border: 20px white solid;
+}
+.contact{
+	display: flex;
+	background-color: lightgreen;
+	justify-content: center;
+	flex-direction: column;
+}
+.contact>div{
+  padding: 30px;
+  margin: 10px;
+}
+table{
+	text-align: center;
+}
+
+.table td{
+    background-color: lightpink;
+    padding: 5px;
+    margin:10px;
+    font-size:20px;
+}
+.table td:hover{
+     background: pink;
+}
+@media and {max-width:600px}{
+  font-size: 50%;
+}
+	
